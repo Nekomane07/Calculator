@@ -12,14 +12,8 @@ input.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault(); // Prevents page from refreshing
     try {
-      if (input.value == '9 + 10' || input.value == '9+10' || input.value == '9+ 10' || input.value == '9 +10') {
-        input.value = 21;
-      } else if (input.value == '505') {
-        input.value = 'I love Izzy <3';
-      } else{
       eval(document.getElementById('input').value);
       document.getElementById("equivalent").click();
-      }
     }
     catch(err) {
       document.getElementById("input").value =
