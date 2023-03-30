@@ -1,3 +1,12 @@
 # Calculator
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-afqiy6)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/neko-calculator)
+
+# Operators:
+
++ addition
+- subtraction
+/ division
+* multiplication
+// floor division
+** exponent
