@@ -5,8 +5,13 @@
 # Operators:
 
 '+ addition'
+
 '- subtraction'
+
 '/ division'
+
 '* multiplication'
+
 '// floor division'
+
 '** exponent'
