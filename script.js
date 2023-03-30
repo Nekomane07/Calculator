@@ -6,6 +6,7 @@ window.onload = function() {
   document.getElementById("input").focus();
 };
 
+
 // Execute a function when the user presses a key on the keyboard
 input.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
@@ -27,7 +28,7 @@ input.addEventListener("keypress", function(event) {
 });
 
 document.getElementById('equivalent').onclick = function() {
-  
+  document.getElementById("input").focus()
   try {
     document.getElementById('input').value = eval(document.getElementById('input').value)
   }
