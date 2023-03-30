@@ -14,6 +14,8 @@ input.addEventListener("keypress", function(event) {
     try {
       if (input.value == '9 + 10' || input.value == '9+10' || input.value == '9+ 10' || input.value == '9 +10') {
         input.value = 21;
+      } else if (input.value == '505') {
+        input.value = 'I love Izzy <3';
       } else{
       eval(document.getElementById('input').value);
       document.getElementById("equivalent").click();
@@ -27,8 +29,15 @@ input.addEventListener("keypress", function(event) {
   }
 });
 
+
+document.getElementById('clear').onclick = function() {
+  document.getElementById('input').value = '';
+  document.getElementById("input").focus();
+
+}
+
 document.getElementById('equivalent').onclick = function() {
-  document.getElementById("input").focus()
+  document.getElementById("input").focus();
   try {
     document.getElementById('input').value = eval(document.getElementById('input').value)
   }
@@ -38,7 +47,3 @@ document.getElementById('equivalent').onclick = function() {
   }
 
 }​
-
-if (input.value == '9 + 10') {
-  input.value = 21
-}
