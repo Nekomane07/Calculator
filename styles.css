@@ -153,8 +153,13 @@ form input.operator  {
 form input.clear  {
   color: hotpink;
 }
-form input:hover {
+
+form input.clear:hover {
   color: pink;
+}
+
+form input:hover {
+  color: hotpink;
 }
 form .display input:hover {
   color: black;
