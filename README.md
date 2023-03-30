@@ -4,9 +4,9 @@
 
 # Operators:
 
-+ addition
-- subtraction
-/ division
-* multiplication
-// floor division
-** exponent
+'+ addition'
+'- subtraction'
+'/ division'
+'* multiplication'
+'// floor division'
+'** exponent'
