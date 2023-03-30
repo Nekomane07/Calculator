@@ -15,3 +15,21 @@
 '// floor division'
 
 '** exponent'
+
+
+# Comparision (True/False):
+
+'< less than'
+
+'> greater than'
+
+'== checks if values are equal'
+
+'!= not equal'
+
+'>= greater than or equal to'
+
+'<= less than or equal to'
+
+
+
