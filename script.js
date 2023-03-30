@@ -37,13 +37,16 @@ document.getElementById('clear').onclick = function() {
 }
 
 document.getElementById('equivalent').onclick = function() {
-  document.getElementById("input").focus();
   try {
-    document.getElementById('input').value = eval(document.getElementById('input').value)
-  }
-  catch(err) {
+    if (input.value == '9 + 10' || input.value == '9+10' || input.value == '9+ 10' || input.value == '9 +10') {
+      input.value = 21;
+    } else if (input.value == '505') {
+      input.value = 'I love Izzy <3';
+    } else {
+    input.value = eval(input.value);
+    }
+  } catch(err) {
     document.getElementById("input").value =
     'ERROR';
   }
-
-}​
+}
