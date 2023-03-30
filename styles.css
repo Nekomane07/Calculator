@@ -160,7 +160,9 @@ form input.clear:hover {
 
 form input:hover {
   color: hotpink;
+
 }
 form .display input:hover {
   color: black;
+  cursor: text;
 }
