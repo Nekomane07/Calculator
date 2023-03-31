@@ -18,7 +18,6 @@ input.addEventListener("keypress", function(event) {
 
 document.getElementById('clear').onclick = function() {
   document.getElementById('input').value = '';
-  document.getElementById("input").focus();
 
 }
 
