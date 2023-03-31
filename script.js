@@ -28,10 +28,10 @@ document.getElementById('equivalent').onclick = function() {
     } else if (input.value == '505') {
       input.value = 'I love Izzy <3';
     } else {
-    input.value = eval(input.value) ?? 'NUL';
+    input.value = eval(input.value) ?? 'ERROR';
     }
   } catch(err) {
     document.getElementById("input").value =
-    'nul';
+    'ERROR';
   }
 }
