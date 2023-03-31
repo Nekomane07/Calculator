@@ -11,7 +11,7 @@ width: 30px;
 height: 30px;
 list-style: none;
 opacity: 0;
-background: rgb(255, 0, 212);
+background: linear-gradient(#b700ff, #f707ff);
 pointer-events: none;
 
 }
