@@ -32,4 +32,4 @@
 '<= less than or equal to'
 
 
-
+*Press C to clear input feild 

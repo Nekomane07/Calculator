@@ -6,7 +6,7 @@
 }
 ul li {
 position: absolute;
-border: 1px solid #fff;
+border: 1px solid hotpink;
 width: 30px;
 height: 30px;
 list-style: none;
@@ -141,10 +141,21 @@ form .display input {
   text-align: right;
   flex: 1;
   font-size: 45px;
-  color: black;
+  color: transparent;
   background-color: darkGrey;
-  
+  text-shadow : 0 0 0 #000;
 }
+
+
+form .display input:focus {
+  outline: none;
+}
+
+form .display input::placeholder {
+  color: grey;
+  text-shadow: none;
+}
+
 form input.zero {
   width: 145px;
 }
@@ -164,6 +175,6 @@ form input:hover {
 
 }
 form .display input:hover {
-  color: black;
-  cursor: text;
+  color: transparent;
+  cursor: default;
 }

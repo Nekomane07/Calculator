@@ -1,4 +1,3 @@
-// Allows the user to solve using Enter key on Keyboard
 var input = document.getElementById("input");
 
 // auto selects the display for the user to type in on page startup
@@ -8,13 +7,19 @@ window.onload = function() {
 
 
 // Execute a function when the user presses a key on the keyboard
-input.addEventListener("keypress", function(event) {
+document.addEventListener("keypress", function(event) {
+  const end = input.value.length;
+  input.setSelectionRange(end, end);
+  input.focus()
+  if (event.key === "c") {
+    event.preventDefault();
+    input.value = ''
+  }
   if (event.key === "Enter") {
     event.preventDefault(); // Prevents page from refreshing
     document.getElementById("equivalent").click();
   }
 });
-
 
 document.getElementById('clear').onclick = function() {
   document.getElementById('input').value = '';
