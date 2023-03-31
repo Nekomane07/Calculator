@@ -32,6 +32,6 @@ document.getElementById('equivalent').onclick = function() {
     }
   } catch(err) {
     document.getElementById("input").value =
-    'NUL';
+    'nul';
   }
 }
